@@ -4,7 +4,8 @@ it is plane parametrs imitate application, you can gat them by http://localhost:
 
 
 reponse example below
-<code><pre>
+<pre>
+<code>
 [
    {
       "id":1,
@@ -81,4 +82,4 @@ reponse example below
       "pos_update_time":"2022-11-16T15:00:12.751903532Z",
       "bds40_seen_time":"2022-11-16T15:00:12.751903721Z"
    }
-]</pre></code>
+]</code></pre>
