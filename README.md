@@ -1,0 +1,84 @@
+# planefinder
+
+it is plane parametrs imitate application, you can gat them by http://localhost:7634/aircraft
+
+
+reponse example below
+<code><pre>
+[
+   {
+      "id":1,
+      "callsign":"SAL001",
+      "squawk":"sqwk",
+      "reg":"N12345",
+      "flightno":"SAL001",
+      "route":"route",
+      "type":"LJ",
+      "category":"ct",
+      "altitude":30000,
+      "heading":280,
+      "speed":440,
+      "lat":39.2979849,
+      "lon":-94.71921,
+      "barometer":0.0,
+      "vert_rate":0,
+      "selected_altitude":0,
+      "polar_distance":0.0,
+      "polar_bearing":0.0,
+      "is_adsb":false,
+      "is_on_ground":true,
+      "last_seen_time":"2022-11-16T15:00:12.751883789Z",
+      "pos_update_time":"2022-11-16T15:00:12.751884830Z",
+      "bds40_seen_time":"2022-11-16T15:00:12.751885053Z"
+   },
+   {
+      "id":2,
+      "callsign":"SAL002",
+      "squawk":"sqwk",
+      "reg":"N54321",
+      "flightno":"SAL002",
+      "route":"route",
+      "type":"LJ",
+      "category":"ct",
+      "altitude":40000,
+      "heading":65,
+      "speed":440,
+      "lat":39.8560963,
+      "lon":-104.6759263,
+      "barometer":0.0,
+      "vert_rate":0,
+      "selected_altitude":0,
+      "polar_distance":0.0,
+      "polar_bearing":0.0,
+      "is_adsb":false,
+      "is_on_ground":true,
+      "last_seen_time":"2022-11-16T15:00:12.751901354Z",
+      "pos_update_time":"2022-11-16T15:00:12.751901684Z",
+      "bds40_seen_time":"2022-11-16T15:00:12.751901893Z"
+   },
+   {
+      "id":3,
+      "callsign":"SAL002",
+      "squawk":"sqwk",
+      "reg":"N54321",
+      "flightno":"SAL002",
+      "route":"route",
+      "type":"LJ",
+      "category":"ct",
+      "altitude":40000,
+      "heading":65,
+      "speed":440,
+      "lat":39.8412964,
+      "lon":-105.0048267,
+      "barometer":0.0,
+      "vert_rate":0,
+      "selected_altitude":0,
+      "polar_distance":0.0,
+      "polar_bearing":0.0,
+      "is_adsb":false,
+      "is_on_ground":true,
+      "last_seen_time":"2022-11-16T15:00:12.751903317Z",
+      "pos_update_time":"2022-11-16T15:00:12.751903532Z",
+      "bds40_seen_time":"2022-11-16T15:00:12.751903721Z"
+   }
+]</pre></code>
