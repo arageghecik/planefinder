@@ -26,7 +26,8 @@ public class PlaneFinderService {
     }
 
     public Iterable<Aircraft> getAircraft() throws IOException {
-        List<Aircraft> positions = new ArrayList<>();
+        return saveSamplePositions();
+/*        List<Aircraft> positions = new ArrayList<>();
 
         JsonNode aircraftNodes = null;
         try {
@@ -55,7 +56,7 @@ public class PlaneFinderService {
         } else {
             System.out.println("\n>>> No positions to report, generating and providing sample data.\n");
             return saveSamplePositions();
-        }
+        }*/
     }
 
     private Iterable<Aircraft> saveSamplePositions() {
