@@ -83,3 +83,7 @@ reponse example below
       "bds40_seen_time":"2022-11-16T15:00:12.751903721Z"
    }
 ]</code></pre>
+### claud concept (after "without_cloud" tag, we went to cloud concept)
+this app concept is - Supplier -> consumer(planefinder ->rabbit->aircraft-positions) concept\
+before this aircraft-positions(webflux_redis,webflux_jpa_RDBAndNoSql) requested to planefinder(tag:claud_strategy_without_kafka) for data, but naw planfinder is sending data to RabbitMQ and aircraft-positions pull from rabbit \
+it is sanding data by his Supplier> reportPositions() method every second(without @scheduler), which annotated @bean\ and in application.properties we set the direction where are sanding we data (appropriate the aircraft-positions getting data process)
